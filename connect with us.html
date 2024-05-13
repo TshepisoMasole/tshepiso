@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css"   type="text/css">
+    <title>NEXT TOURS</title>
+</head>
+<body>
+    <form action="thankYou.html" style="background-color: blue; color:#fff"></form>
+    <div id="wrapper">
+        <header>
+            <div class="flex">
+                <div class="logo">
+                    <a href="#">NEXT <span>TOURS</span></a>
+                </div>
+                <nav>
+                    <button id="nav-toggle" class="hamburger-menu">
+                        <span class="strip"></span>
+                        <span class="strip"></span>
+                        <span class="strip"></span>
+                    </button>
+                    <ul  id="nav-menu-container"></ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="About.html">ABOUT</a></li>
+                        <li><a href="Lifestyle.html">LIFESTYLE</a></li>
+                        <li><a href="Events.html">EVENTS</a></li>
+                        
+                        
+                </nav>
+            </div>
+        </header>
+        
+    <section class="contact us">
+        <h1>CONTACT US</h1>
+        <div class="flex">
+            <div class="contact-form">
+                <address>
+                    54201  Townside<br/>
+                    Austin, Texas 2145<br/>
+                    info@nexttours.com<br/>
+                    Tell:254-014-8450
+                </address>
+                <form>
+                    <input type="text" name="name" id="name" placeholder="Name">
+                    <input type="text" name="email" id="email" placeholder="Email">
+                    <input type="text" name="subject" id="subject" placeholder="Subject">
+                    <textarea id="message" placeholder="Type your message here..."></textarea>
+                    <button><a href="thankYou.html">SUBMIT</a></button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="flex">
+            <small>
+                &copy;2021 Next Tours.Proudly Created by Next tours
+            </small>
+            <ul>
+                <li>
+                    <a href="#">
+                        <img src="https://onclickwebdesign.com/wp-content/uploads/2019/02/facebook_icon.jpg" alt="Facebook">
+                    </a>
+                </li>
+
+                <li>
+                  <a href="#">
+                      <img src="https://onclickwebdesign.com/wp-content/uploads/2019/02/twitter_icon.jpg" alt="Twitter">
+                  </a>
+              </li>
+
+            </ul>
+        </div>
+    </footer>
+</div> 
+<script>
+    document.getElementById('nav_toggle').addEventListener('click', function() {
+        let navMenu=document.getElementById('nav-menu-container');
+        navMenu.style.display=navMenu.offsetParent ===null? 'block' :'none';
+    })
+</script> 
+    
+</body>
+</div> 
+<script>
+    document.getElementById('nav_toggle').addEventListener('click', function() {
+        let navMenu=document.getElementById('nav-menu-container');
+        navMenu.style.display=navMenu.offsetParent ===null? 'block' :'none';
+    })
+</script> 
+</html>

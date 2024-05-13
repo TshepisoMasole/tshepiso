@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css"   type="text/css">
+    <title>NEXT TOURS</title>
+    
+    <style>
+        body{
+            background-color: #D1E0ED;
+        }
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <div class="flex">
+                <div class="logo">
+                    <a href="#">NEXT <span>TOURS</span></a>
+                </div>
+                <nav>
+                    <button id="nav-toggle" class="hamburger-menu">
+                        <span class="strip"></span>
+                        <span class="strip"></span>
+                        <span class="strip"></span>
+                    </button>
+                    <ul  id="nav-menu-container"></ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="About.html">ABOUT</a></li>
+                    
+                        <li><a href="Events.html">EVENTS</a></li>
+                        <li><a href="connect with us.html">CONNECT WITH US</a></li>
+                        
+                </nav>
+            </div>
+        </header>
+        <section class="fashion">
+            <h1>FASHION IN LONDON</h1>
+            <p>Fashion in london through the years</p>
+             <!-- Slideshow container -->
+<div class="slideshow-container">
+
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 7</div>
+      <img src="images/John French.jpg" style="width:100%">
+      <div class="text"></div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 7</div>
+      <img src="images/Milan Fashion Week Spring 2020 Attendees Pictures.jpg" style="width:100%">
+      <div class="text"></div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 7</div>
+      <img src="images/Style Inspiration_ Where The Boys Are — Zella Maybe.png" style="width:100%">
+      <div class="text"></div>
+    </div>
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 7</div>
+      <img src="images/The best of London Fashion Week street style.jpg" style="width:100%">
+      <div class="text"></div>
+    </div>
+    <div class="mySlides fade">
+      <div class="numbertext">4 / 7</div>
+      <img src="images/The Best Street Style From London Fashion Week A_W 2020.png" style="width:100%">
+      <div class="text"></div>
+    </div>
+    <div class="mySlides fade">
+      <div class="numbertext">5 / 7</div>
+      <img src="images/Wonderful Vintage Photos Show English-African Beauties on London Streets in the 1960s and 1970s.jpg" style="width:100%">
+      <div class="text"></div>
+    </div>
+    <div class="mySlides fade">
+      <div class="numbertext">6/ 7</div>
+      <img src="images/Psychedelic Fashion in London - October 1967 - Flashbak.png" style="width:100%">
+      <div class="text"></div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">7 / 7</div>
+        <img src="images/Christian Dior in the USSR.jpg" style="width:100%">
+        <div class="text"></div>
+      </div>
+  
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+  
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+  </div>
+
+  <script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+    
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}    
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";  
+      }
+      for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+    }
+    </script>
+        </section>
+       <section class="Lifestyle">
+            <h1>Tourist Attraction</h1>
+
+            <h4>Buckingham Palace garden</h4>
+            <img src="images/buckingham-palace-tour-640.jpg" alt="buckingham palace" width="250" height="200">
+             <p>The Garden at Buckingham Palace is a large private park attached to the  London residence of the monarch.
+                It is situated at the rear of Buckingham Palace</p>   
+                
+                
+            <h4>Westminster Abbey</h4>
+            <img src="images/90441-640x360-tower-640.jpg" alt="Westminster Abbey" width="200" height="150">
+            <p>A royal church in the centre of London offering daily services for all and a World Heritage
+                     Site with over a thousand years of history.</p>
+            
+             <h4>‘Big Ben’ clock tower</h4>
+             <img src="images/London Bucket list_ 40+ Unique London Experiences.jpg" alt="Big Ben" width="200" height="250">
+            <p>Big Ben is the nickname for the Great Bell of the striking clock at the north end of the Palace
+               of Westminster; the name is frequently extended to also refer to the clock and the clock tower</p>
+                 
+                         
+                       
+                                                                 
+                                 
+                             
+
+                           
+                                        
+                                     
+                                     
+                                
+
+                                
+          
+
+       </section> 
+       <p><a href="https://youtu.be/PtWeqZsuzpE">More about London Tourist Attractions:https://youtu.be/PtWeqZsuzpE</a></p>
+        
+       <footer>
+        <div class="flex">
+            <small>
+                &copy;2021 Next Tours.Proudly Created by Next tours
+            </small>
+            <ul>
+                <li>
+                    <a href="#">
+                        <img src="https://onclickwebdesign.com/wp-content/uploads/2019/02/facebook_icon.jpg" alt="Facebook">
+                    </a>
+                </li>
+
+                <li>
+                  <a href="#">
+                      <img src="https://onclickwebdesign.com/wp-content/uploads/2019/02/twitter_icon.jpg" alt="Twitter">
+                  </a>
+              </li>
+
+            </ul>
+        </div>
+    </footer>
+</div> 
+<script>
+    document.getElementById('nav_toggle').addEventListener('click', function() {
+        let navMenu=document.getElementById('nav-menu-container');
+        navMenu.style.display=navMenu.offsetParent ===null? 'block' :'none';
+    })
+</script> 
+</body>
+</html>
